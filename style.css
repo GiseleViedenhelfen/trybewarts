@@ -55,7 +55,7 @@ main {
 }
 
 .trybewarts-login input {
-  border-radius: 10px;
+  border-radius: 8px;
   
 }
 
@@ -81,4 +81,13 @@ section {
 .trybewarts-header-logo{
   height:50px;
   margin: 0 20px;
-}  
+}
+
+button {
+  font-family:Open Sans, sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 36px;
+}
