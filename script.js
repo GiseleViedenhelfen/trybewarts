@@ -1,4 +1,5 @@
 const botaoSubmit = document.querySelector('#btn-form-header');
+const botaoSubmitBody = document.querySelector('#submit-btn');
 const email = document.querySelector('#mail');
 const senha = document.querySelector('#password');
 botaoSubmit.addEventListener('click', () => {
