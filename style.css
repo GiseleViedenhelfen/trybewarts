@@ -1,6 +1,6 @@
 * {
   box-sizing: border-box;
-  
+
 }
 
 .header {
@@ -18,7 +18,7 @@
 main {
   display: flex;
   justify-content: center;
-  align-items: center
+  align-items: center;
 }
 
 #evaluation-form {
@@ -56,11 +56,11 @@ main {
 
 .trybewarts-login input {
   border-radius: 8px;
-  
+
 }
 
 body {
-  background-color: rgb(235,235,235);
+  background-color: rgb(235, 235, 235);
 }
 
 section {
@@ -78,14 +78,14 @@ section {
   margin: 0 20px;
 }
 
-.trybewarts-header-logo{
-  height:50px;
+.trybewarts-header-logo {
+  height: 50px;
   margin: 0 20px;
 }
 
 button {
-  font-family:Open Sans, sans-serif;
-  font-weight: bold;
+  font-family: Open Sans, sans-serif;
+  font-weight: 700;
 }
 
 h1 {
