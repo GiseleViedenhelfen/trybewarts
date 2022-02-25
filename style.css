@@ -23,11 +23,15 @@ main {
 }
 
 #label-family {
-  /* display: flex; */
+  display: flex;
   flex-direction: column;
 }
 
 #familias {
   display: flex;
   flex-direction: column;
+}
+#content {
+    display: flex;
+    flex-direction: column;
 }
