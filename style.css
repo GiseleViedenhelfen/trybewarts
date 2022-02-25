@@ -24,3 +24,13 @@ main {
 #evaluation-form {
   display: flex;
 }
+
+#label-family {
+  display: flex;
+  flex-direction: column;
+}
+
+#familias {
+  display: flex;
+  flex-direction: column;
+}
