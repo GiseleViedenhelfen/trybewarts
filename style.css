@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -6,16 +10,21 @@
 
 .trybewarts-login {
   display: flex;
+  align-items: center;
 }
 
 main {
   display: flex;
+  justify-content: center;
+  align-items: center
 }
 
 #evaluation-form {
   display: flex;
   flex-direction: column;
   width: 675px;
+  margin: 10px;
+  padding: 5px;
 }
 
 #trybewarts-forms-logo {
@@ -40,4 +49,26 @@ main {
 #avalia {
   display: flex;
   align-items: center;
+}
+
+.trybewarts-login input {
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(235,235,235);
+}
+
+section {
+  font-size: 24px;
+}
+
+#submit-btn {
+  background-color: purple;
+  color: white;
+}
+
+#btn-form-header {
+  background-color: purple;
+  color: white;
 }
