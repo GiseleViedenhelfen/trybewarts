@@ -31,7 +31,13 @@ main {
   display: flex;
   flex-direction: column;
 }
+
 #content {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+#avalia {
+  display: flex; 
+  align-items: center;
 }
