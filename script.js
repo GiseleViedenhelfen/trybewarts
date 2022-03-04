@@ -28,10 +28,10 @@ textArea.addEventListener('input', () => {
   paragrafoContador.innerText = contador - inputTextArea.length;
 });
 
-botaoSubmitBody.addEventListener('click', (event) => {
-  event.preventDefault();
-  const pNome = document.createElement('p');
-  pNome.innerHTML = `Nome: ${nomeFormBody.value}`;
-  formularioBody.appendChild(pNome);
-  nomeFormBody.value = '';
-});
+// botaoSubmitBody.addEventListener('click', (event) => {
+//   event.preventDefault();
+//   const pNome = document.createElement('p');
+//   pNome.innerHTML = `Nome: ${nomeFormBody.value}`;
+//   formularioBody.appendChild(pNome);
+//   nomeFormBody.value = '';
+// });
